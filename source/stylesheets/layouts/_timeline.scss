@@ -1,0 +1,54 @@
+
+
+.timeline-card-right {
+  width: 40%;
+  border-radius: 5px;
+
+}
+
+
+.timeline-card-left {
+  width: 60%;
+  height:100%;
+  // border-radius: 5px 5px 0;
+
+
+}
+
+.timeline-card {
+  display: flex;
+  height: 100%;
+  // border-radius: 5px;
+  border: 1px solid #FAFAFA;
+  border-radius: 5px;
+
+}
+
+.timeline-card-right {
+  background-color: white;
+  border-radius: 0 5px 5px 0;
+  width: 30%;
+  margin: 0 auto;
+
+
+}
+
+.timeline-card-right-text-container {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.timeline-card-right-text-container > span {
+  font-family: "CircularStd-Black";
+}
+
+.timeline-card-right-text-container > p {
+  font-family: "Graphik-Regular";
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+.timeline-card-right-text-container > span > i {
+  font-family: "Graphik-Regular";
+  font-size: 15px;
+}

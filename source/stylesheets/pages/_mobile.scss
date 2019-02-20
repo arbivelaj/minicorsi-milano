@@ -1,0 +1,268 @@
+@media screen and (max-width: 600px) {
+  .datatron {
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    min-height: 95%;
+  }
+
+  .left-header {
+    margin: 0 auto !important;
+    width: 85vw !important;
+  }
+
+  .link-nav-container {
+    display: none !important;
+  }
+
+  .left-text {
+    // background-image: url("../../images/parallax.jpg")
+  }
+
+  .main-title {
+    font-size: 45px !important;
+  }
+
+  .main-subtitle {
+    font-size: 17px !important;
+  }
+
+  .main-subtitle > a {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .first-section {
+    margin-top: 30px !important;
+  }
+
+  .right-pic {
+    display: none !important;
+  }
+
+  .right-section-pic-container {
+    height: 300px;
+  }
+
+  .header-courses-section {
+    font-size: 40px !important;
+    margin-top: 0px !important;
+    width: 70vw;
+    position: relative;
+    margin-bottom: 50px !important;
+  }
+
+  .no-padding-mobile {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+
+  }
+
+  .fourth-section-paragraph {
+    width: 75vw !important;
+    margin-top: 30px !important;
+    font-size: 16px;
+  }
+
+  .first-section {
+    height: 780px;
+  }
+
+  .first-section > ul > li > a {
+    display: none !important;
+  }
+
+  .accordion-mobile {
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+
+  .mobile-header {
+    display: none !important;
+  }
+
+  .card {
+    width: 80%;
+    margin: 20px auto;
+
+  }
+
+  .card-header {
+    background-color: black;
+    padding: 10px 1.25rem;
+  }
+
+  .card-header > h5 > button {
+    font-size: 25px;
+    color: white;
+  }
+
+  .mb-0 {
+
+  }
+
+  .header-courses-section-mobile-none {
+    display: block !important;
+    margin-top: 30px !important;
+  }
+
+  .right-section-pic-double {
+    margin-top: 40px !important;
+  }
+
+
+  // timeline
+
+  .wrapper-white {
+    padding: 80px 20px;
+    position: relative;
+    border-top: 3px #ddd5c3 dotted;
+  }
+
+  .wrapper-white > h2 {
+    margin: 0 auto 20px;
+    max-width: 600px;
+    font-size: 1.8em;
+    letter-spacing: 0;
+    line-height: 1.25em;
+    // font-family: Graphik-Regular;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  .sub-title {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #6f6d6f;
+    margin: 0 0 16px;
+    font-family: Graphik-Regular;
+    font-size: 0.9em;
+    font-weight: 100;
+    opacity: 0.8;
+  }
+
+  .day-info {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 10px;
+    margin-bottom: 16px;
+    background-color: #fcf5e8;
+    border-radius: 3px;
+    overflow: hidden
+  }
+
+  .day-info > img {
+    margin-right: 10px;
+  }
+
+  .day-info > span {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-family: CircularStd-Black;
+    font-size: 1.1em;
+  }
+
+  .day > p {
+    font-family: Graphik-Regular;
+    font-size: 0.9em;
+    font-weight: 100;
+    opacity: 0.8;
+    color: #6f6d6f;
+  }
+
+
+  .day-info > span > i {
+
+    display: block;
+    margin-top: 6px;
+    font-style: normal;
+    font-size: .9em;
+    font-family: Graphik-Regular;
+  }
+
+  .highlighted-yellow {
+    padding: 0;
+    color: #ffc65a;
+    background-color: inherit;
+  }
+
+  .fourth-section {
+    height: 85vh;
+  }
+
+  .price-card {
+    width: 85vw;
+    top: 10%;
+  }
+
+  .prices-cards {
+    height: 85%;
+  }
+}
+
+
+@media screen and (min-width: 990px) {
+  .header-courses-section {
+    display: none !important;
+
+  }
+
+  .display {
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

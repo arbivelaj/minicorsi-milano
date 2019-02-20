@@ -1,0 +1,1 @@
+$(document).ready(function(){"use strict";var l,o=0,s=$("nav.scroll-navbar");console.log(s),0===scrollY&&s.addClass("scrollUp"),$(window).scroll(function(){var r=$(window).scrollTop(),c=s.height();o=r,l<o&&r>c+c?s.removeClass("scrollUp"):l>o&&!(r<=c)&&s.addClass("scrollUp"),l=o})});

@@ -1,0 +1,412 @@
+body, html {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Graphik-Regular;
+  letter-spacing: .1px;
+}
+
+.landing-sec {
+  min-height: 86vh;
+  width: 100vw;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.pic {
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 0 !important;
+}
+
+.pic1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.right-pic {
+  // top: 0;
+  // z-index: -2;
+  height: calc(86vh + 80px);
+
+  // right: 0;
+}
+
+.right-section-pic-container {
+  padding: 4vh 5vw;
+}
+
+.right-section-pic-container-slack {
+  padding: 0;
+}
+
+
+.right-section-pic {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+}
+
+
+.full-height {
+  height: 100%;
+}
+
+.pic-course {
+  height: 100%;
+  width: 24vw;
+  margin: 0 auto;
+}
+
+.image-sec {
+  height: 50vh;
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 25vh;
+}
+
+.header-courses-section {
+  font-family: "CircularStd-Black";
+  line-height: 1.3em;
+  font-size: 30px;
+  margin-top: 50px;
+  position: absolute;
+  top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.header-timeline-section {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  font-family: "CircularStd-Black";
+  text-align: center;
+  padding-top: 60px !important;
+  font-size: 30px;
+  background-color: #FFF9EF;
+
+}
+
+.header-courses-section-main {
+  background-color: white;
+}
+
+span.underline1 {
+ border-bottom: 7px solid lightgreen;
+ display:block;
+ margin-top: 16px;
+}
+
+span.underline2 {
+ border-bottom: 7px solid orange;
+ display:block;
+ margin-top: 16px;
+}
+
+span.underline3 {
+ border-bottom: 7px solid lightblue;
+ display:block;
+ margin-top: 16px;
+}
+
+span.display-none {
+  display:none;
+}
+
+.display-none {
+  display:none;
+}
+
+
+span.displayed {
+  display:block;
+}
+
+.accordion-mobile {
+  display: none;
+}
+
+.displayed {
+  display: flex;
+}
+
+.card-main {
+  height: 40%;
+  margin-top: 27vh;
+  width: 24vw;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.left-text {
+  padding: 0 !important;
+}
+
+.highlighted {
+  padding: 0 15px 3px;
+  font-style: normal;
+  border-radius: 3px;
+  line-height: 1.1em;
+  display: inline-block;
+  background-color: rgba(253,16,21,.1);
+  color: red;
+}
+
+.highlighted-new {
+  background: #fff9ef;
+  color: black;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.highlighted-purple {
+  color: rgb(121, 113, 251);
+  background-color: rgba(121, 113, 251, 0.1);
+}
+
+.highlighted-red {
+  color: red;
+}
+
+.highlighted-lightgreen {
+  color: lightgreen;
+  background-color: rgba(133, 236, 133, 0.1);
+}
+
+.highlighted-lightblue {
+  color: lightblue;
+  background-color: rgba(164, 211, 227, 0.1);
+}
+
+.highlighted-orange {
+  color: orange;
+  background-color: rgba(255, 165, 0, 0.1);
+}
+
+
+.second-section {
+  width: 100vw;
+  height: 70vh;
+  background-color: white;
+  margin: 0 !important;
+  position: relative;
+  border-bottom: 5px dotted #FFF9EF;
+  // opacity: 0.5;
+}
+
+.course-desc-container {
+  margin-top: 22vh;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60vw;
+  line-height: 2em;
+  font-size: 19px;
+}
+
+.datatron {
+  margin-top: 100px;
+}
+
+ul.datatron, ul.datatron li {
+  display: flex;
+}
+
+ul.datatron li {
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-right: 15px;
+  width: 33.33333%;
+  -ms-flex: 1 0 280px;
+  flex: 1 0 280px;
+  padding-top: 20px;
+  border-left: 3px solid #ddd5c3;
+  border-style: none none none dotted;
+  max-height: 250px;
+}
+
+ul.datatron li span {
+  line-height: .8em;
+  font-family: CircularStd-Black;
+  font-size: 64px;
+  color: #fd1015;
+}
+
+ul.datatron li i {
+  line-height: 1.3em;
+  font-size: 26px;
+  font-style: normal;
+  color: #000;
+  margin-top: 7px;
+}
+
+ul.datatron li p {
+  margin-bottom: 16px;
+  text-align: left;
+  padding-right: 32px;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding-top: 10px;
+}
+
+.data-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 35vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul {
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.data-list li {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 12px;
+  font-size: 18px;
+  line-height: 1em;
+  border-left: 3px solid #ddd5c3;
+  border-style: none none none dotted;
+}
+
+.link-nav-container {
+  height:64px;
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  align-items: center;
+}
+
+.card-title-second-section {
+  font-family: "CircularStd-Black";
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  color: white;
+  font-size: 30px;
+}
+
+
+.third-section {
+  height: 100vh;
+  position: relative;
+}
+
+.first-section {
+  height: 115vh;
+  position: relative;
+  background-color: #FFF9EF;
+  margin: 0 !important;
+}
+
+.fourth-section {
+  height: 65vh;
+  position: relative;
+  // background-color: #FFF9EF;
+  margin: 0 !important;
+}
+
+.fourth-section-main {
+  background-color: white;
+}
+
+.fourth-section-paragraph {
+  margin-top: 20vh;
+  font-family: "graphik-regular";
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35vw;
+  line-height: 2;
+
+}
+
+.fifth-section {
+  height: 100vh;
+  position: relative;
+}
+
+.prices-cards {
+  position: relative;
+  height: 100%;
+}
+
+
+.price-card {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 15%;
+  width: 30vw;
+  height: 75vh;
+  float: left;
+  perspective: 500px;
+  border-radius: 3px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  background: white;
+  border-radius: 3px;
+
+}
+.front,
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+
+.sixth-section {
+  height: 65vh;
+  position: relative;
+  // background-color: #FFF9EF;
+
+}
+
+.content-row {
+  height: 27.5%;
+  border-bottom: 1px solid whitesmoke;
+  font-family: "graphik-regular";
+  text-align: center;
+
+}
+
+.content-row-title1 {
+  height: 45%;
+
+}
+
+
