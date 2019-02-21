@@ -7,7 +7,7 @@
     min-height: 95%;
   }
 
-  .left-header {
+  .sec-landing-left-header {
     margin: 0 auto !important;
     width: 85vw !important;
   }
@@ -211,17 +211,33 @@
   .prices-cards {
     height: 85%;
   }
+
+  .last-section {
+    height: 180vh;
+  }
+
+  .cta {
+    margin: 0 auto;
+  }
 }
 
 
 @media screen and (min-width: 990px) {
-  .header-courses-section {
-    display: none !important;
+  // .header-courses-section {
+  //   display: none !important;
 
+  // }
+
+  section.wrapper-white {
+    display: none !important;
   }
 
   .display {
     display: none !important;
+  }
+
+  .last-section {
+    height: 105vh;
   }
 }
 
