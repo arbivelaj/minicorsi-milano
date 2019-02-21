@@ -1,9 +1,9 @@
 <%= partial "fixed_navbar" %>
-<div class="row landing-sec ">
-  <div class="col-xs-12 col-md-6 left-text">
-    <div class="left-header">
-      <h1 class="main-title">Digital Literacy<br>Le Wagon <i class="highlighted highlighted-red">Milano</i></h1>
-      <div class="main-subtitle">
+<div class="row sec-landing ">
+  <div class="col-xs-12 col-md-6" style="padding: 0">
+    <div class="sec-landing-left-header">
+      <h1>Digital Literacy<br>Le Wagon <i class="highlighted highlighted-red">Milano</i></h1>
+      <div class="sec-landing-main-subtitle">
         <p>Sviluppa tech skills essenziali nel job market,
         scopri lo UX/UI Design, Web Development, API, Database e molto altro.</p>
         <a class="cta cta-big cta-secondary margin-top-cta-secondary" href="#">Iscriviti Ora</a></br>
@@ -13,7 +13,6 @@
   </div>
   <div class="col-xs-12 col-md-6 right-pic pic">
     <img src="images/right-front.jpg" class="pic1" alt="" style=" border-radius: 5px;height: 80vh; width: 40vw; object-fit: cover;">
-
   </div>
 </div>
 
@@ -68,7 +67,7 @@
 
 <section class="mobile-header">
   <div class="row second-section">
-    <p class="header-courses-section display"><i class="highlighted highlighted-purple" style="font-size: 50px;">Digital Literacy:</i>i nostri corsi</p>
+    <p class="header-courses-section"><i class="highlighted highlighted-purple" style="font-size: 50px;">Digital Literacy:</i>i nostri corsi</p>
     <div class="col-xs-12 col-sm-4 full-height">
       <div class="card-main">
         <div class="pic-course pic card-main1" style="background-image: url(<%= image_path 'web-dev.jpg'%>);">
@@ -98,7 +97,7 @@
 
 
 <section>
-  <p class="header-courses-section header-courses-section-mobile-none"><i class="highlighted highlighted-purple" style="font-size: 50px;">Digital Literacy:</i>i nostri corsi</p>
+  <p class="header-courses-section header-courses-section-mobile-none accordion-mobile"><i class="highlighted highlighted-purple" style="font-size: 50px;">Digital Literacy:</i>i nostri corsi</p>
   <div id="accordion" class="accordion-mobile">
     <div class="card">
       <div class="card-header" id="headingOne">
@@ -159,7 +158,7 @@
 
 <section>
   <div class="Web row third-section course1 display-none displayed mobile-header">
-    <p class="header-courses-section mobile-header"><i class="highlighted highlighted-lightgreen" style="font-size: 50px; color: lightgreen;">Web Development</i></p>
+    <p class="header-courses-section mobile-header"><i class="highlighted highlighted-green" style="font-size: 50px; color: lightgreen;">Web Development</i></p>
     <div class="course-desc-container">
       <p>Tutti dovrebbero sapere come programmare un semplice <strong>sito</strong> e lanciarlo online! Durante questo corso, imparerete a programmare siti efficaci e veloci con <strong>HTML & CSS</strong>, lanciarli online e incorporare servizi di terze parti per raccogliere i dati degli utenti o integrare moduli di pagamenti.</p>
       <p>Questo corso vi insegnerà tutti i fondamenti dello <strong>sviluppo web</strong>:</p>
@@ -168,7 +167,7 @@
         <li>Impara i concetti base dell’HTML & CSS e programma una pagina profilo con font e colori</li>
         <li>Crea la tua libreria di componenti UI utilizzando le più recenti tecniche CSS come flexbox</li>
         <li>Utilizza la libreria UI per codificare una pagina di destinazione per qualsiasi servizio o prodotto</li>
-        <li>Metti online la tua landing page, incorpora un servizio di terze parti e integra Google Analytics e configura il tuo dominio</li>
+<!--         <li>Metti online la tua landing page, incorpora un servizio di terze parti e integra Google Analytics e configura il tuo dominio</li> -->
       </ul>
     </div>
   </div>
@@ -186,7 +185,7 @@
 </div>
 
 <div class="Product row third-section display-none">
-  <p class="header-courses-section"><i class="highlighted highlighted-lightblue" style="font-size: 50px; color: lightblue;">Product Sprint</i></p>
+  <p class="header-courses-section"><i class="highlighted highlighted-blue" style="font-size: 50px; color: lightblue;">Product Sprint</i></p>
   <div class="course-desc-container">
     <p>Questo corso vi insegnerà tutto ciò che vi serve sapere per iniziare con l’UX & UI Design:</p>
     <ul>
@@ -301,12 +300,13 @@
 
 <section>
   <div class="row fourth-section">
-      <p class="header-courses-section no-padding-mobile" style="font-size: 50px">Impara con i <i class="highlighted highlighted-red" style="font-size: 50px; color: black;">migliori</i></p>
+      <p class="header-courses-section no-padding-mobile display" style="font-size: 50px">Impara con i <i class="highlighted highlighted-red" style="font-size: 50px; color: black;">migliori</i></p>
     <div  class="col-xs-12 col-md-6 right-section-pic-container right-section-pic-container-slack ">
       <div class="pic right-section-pic right-section-pic-double" style="background-image: url(<%= image_path 'classe2.png'%>);">
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 right-text">
+      <p class="header-courses-section no-padding-mobile mobile-header" style="font-size: 50px">Impara con i <i class="highlighted highlighted-red" style="font-size: 50px; color: black;">migliori</i></p>
       <p class="fourth-section-paragraph">Sviluppa tech skills essenziali nel job market,
       scopri lo UX/UI Design, Web Development</p>
     </div>
@@ -329,7 +329,7 @@
   </div>
 </section>
 
-<section style="height: 180vh;">
+<section class="last-section" ">
   <div class="parallax">
     <div class="row fifth-section">
       <div class="col-xs-12 col-md-6 prices-cards">

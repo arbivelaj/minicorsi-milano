@@ -5,13 +5,6 @@ body, html {
   letter-spacing: .1px;
 }
 
-.landing-sec {
-  min-height: 86vh;
-  width: 100vw;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
 .pic {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -149,47 +142,6 @@ span.displayed {
   padding: 0 !important;
 }
 
-.highlighted {
-  padding: 0 15px 3px;
-  font-style: normal;
-  border-radius: 3px;
-  line-height: 1.1em;
-  display: inline-block;
-  background-color: rgba(253,16,21,.1);
-  color: red;
-}
-
-.highlighted-new {
-  background: #fff9ef;
-  color: black;
-  border: 1px solid black;
-  font-weight: bold;
-}
-
-.highlighted-purple {
-  color: rgb(121, 113, 251);
-  background-color: rgba(121, 113, 251, 0.1);
-}
-
-.highlighted-red {
-  color: red;
-}
-
-.highlighted-lightgreen {
-  color: lightgreen;
-  background-color: rgba(133, 236, 133, 0.1);
-}
-
-.highlighted-lightblue {
-  color: lightblue;
-  background-color: rgba(164, 211, 227, 0.1);
-}
-
-.highlighted-orange {
-  color: orange;
-  background-color: rgba(255, 165, 0, 0.1);
-}
-
 
 .second-section {
   width: 100vw;
@@ -311,12 +263,6 @@ ul {
   position: relative;
 }
 
-.first-section {
-  height: 115vh;
-  position: relative;
-  background-color: #FFF9EF;
-  margin: 0 !important;
-}
 
 .fourth-section {
   height: 65vh;

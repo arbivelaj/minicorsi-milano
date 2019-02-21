@@ -1,0 +1,44 @@
+.highlighted {
+  padding: 0 15px 3px;
+  font-style: normal;
+  border-radius: 3px;
+  line-height: 1.1em;
+  display: inline-block;
+}
+
+.highlighted-red {
+  background-color: $light-red;
+  color: $red;
+}
+
+.highlighted-purple {
+  color: $purple;
+  background-color: $light-purple
+}
+
+.highlighted-green {
+  color: $green;
+  background-color: $light-green;
+}
+
+.highlighted-blue {
+  color: lightblue;
+  background-color: rgba(164, 211, 227, 0.1);
+}
+
+.highlighted-orange {
+  color: $orange;
+  background-color: rgba(255, 165, 0, 0.1);
+}
+
+.highlighted-yellow {
+  color: $yellow;
+  background-color: $light-yellow;
+}
+
+.highlighted-new {
+  background: #fff9ef;
+  color: black;
+  border: 1px solid black;
+  font-weight: bold;
+}
