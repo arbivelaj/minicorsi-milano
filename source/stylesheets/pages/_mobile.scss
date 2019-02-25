@@ -1,3 +1,10 @@
+@media screen and (max-width: 1040px) {
+
+div.col-md-6.right-section-pic-container {
+  display: none;
+}
+}
+
 @media screen and (max-width: 600px) {
   .datatron {
     justify-content: space-between;
