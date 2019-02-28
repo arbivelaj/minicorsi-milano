@@ -8,8 +8,16 @@
 
   }
 
+  .paragraph-row {
+    width: 33vw !important;
+  }
+
   .Web > p {
-    width: 55vw;
+    width: 70vw;
+  }
+
+  .fourth-section-paragraph {
+    width: 80vw;
   }
 
   .display {
@@ -24,6 +32,16 @@
     flex-wrap: wrap;
     margin-top: 10px;
     min-height: 95%;
+  }
+
+  .last-sec {
+    display: block !important;
+  }
+
+  .right-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   .sec-landing-main-subtitle {
@@ -247,6 +265,10 @@
 
   .cta {
     margin: 0 auto;
+  }
+
+  .displayed {
+    display:none !important;
   }
 }
 
