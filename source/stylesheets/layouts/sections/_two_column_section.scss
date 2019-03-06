@@ -1,0 +1,57 @@
+
+.immersive-bootcamp {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+    width: 100%;
+}
+
+.section-content, .section-content .block-media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.section-content {
+  width: 100%;
+}
+
+.section-content .block-content-left {
+    padding-right: 30px;
+}
+
+.section-content .block-content-right {
+    padding-left: 30px;
+}
+
+.section-content .block-content:first-child {
+    border-right: 1px solid #ddd5c3;
+}
+
+.section-content .block-content {
+    width: 50%;
+}
+
+.immersive-bootcamp h2 {
+    margin: 0 0 20px;
+    max-width: 600px;
+    font-size: 42px;
+}
+
+.sub-title {
+    margin-bottom: 30px;
+    font-family: Graphik-Regular,SimHei;
+    color: #6f6d6f;
+    line-height: 1.6em;
+    letter-spacing: .1px;
+}
+
+p {
+    margin: 0 0 30px;
+}
