@@ -65,7 +65,7 @@ body, html {
   font-family: "CircularStd-Black";
   line-height: 1.3em;
   font-size: 30px;
-  margin-top: 50px;
+  // margin-top: 30px;
   position: absolute;
   top: 20px;
   margin-left: auto;
@@ -83,7 +83,7 @@ body, html {
   font-family: "CircularStd-Black";
   text-align: center;
   padding-top: 60px !important;
-  font-size: 30px;
+  font-size: 35px;
   background-color: #FFF9EF;
 
 }
@@ -155,7 +155,7 @@ span.displayed {
 }
 
 .course-desc-container {
-  margin-top: 22vh;
+  margin-top: 20vh;
   margin-right: auto;
   margin-left: auto;
   width: 80vw;
@@ -260,7 +260,7 @@ ul {
 
 
 .third-section {
-  height: 100vh;
+  height: 95vh;
   position: relative;
 }
 
@@ -277,13 +277,18 @@ ul {
 }
 
 .fourth-section-paragraph {
-  margin-top: 20vh;
+  margin-top: 15vh;
   font-family: "graphik-regular";
   font-size: 18px;
   margin-left: auto;
   margin-right: auto;
   width: 35vw;
   line-height: 2;
+
+}
+
+.fourth-section-paragraph-margin {
+  margin-top: 15vh !important;
 
 }
 
@@ -359,7 +364,9 @@ ul {
 .right-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
+
+
 
 

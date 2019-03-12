@@ -8,6 +8,10 @@
 
   }
 
+  .course1 {
+    height: 110vh !important;
+  }
+
   .paragraph-row {
     width: 33vw !important;
   }
@@ -32,6 +36,17 @@
     flex-wrap: wrap;
     margin-top: 10px;
     min-height: 95%;
+  }
+
+  .section-content .block-content {
+      -ms-flex: 1 0 300px;
+      flex: 1 0 300px;
+      padding: 0!important;
+      border: none!important;
+  }
+
+  .section-content {
+    flex-wrap: wrap;
   }
 
   .last-sec {
@@ -297,6 +312,15 @@
   .mobile-header {
     display: none !important;
   }
+
+  .header-top-fullscreen-big {
+    top: 70px;
+    font-size: 40px;
+  }
+
+  .header-top-fullscreen-small {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (min-width: 1040px) {
@@ -306,6 +330,10 @@
 
   .ul.datatron li {
     max-width: 33.33333%;
+  }
+
+  .right-text-padding {
+    margin-top: 50px;
   }
 
 }
@@ -318,6 +346,13 @@
   // .fourth-section-paragraph {
   //   width: 85vw !important;
   // }
+}
+
+@media screen and (min-width: 769px) {
+  .header-top-fullscreen-big {
+    top: 70px;
+    font-size: 40px;
+  }
 }
 
 
