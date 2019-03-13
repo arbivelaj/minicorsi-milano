@@ -1,0 +1,118 @@
+.wrapper-white {
+    padding: 80px 20px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.wrapper .wrapper-content {
+    position: relative;
+    z-index: 1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrapper-content > h2 {
+    margin: 0 auto 20px;
+    max-width: 600px;
+    font-size: 1.8em;
+    letter-spacing: 0;
+}
+
+.referrer-service:not(:last-child) {
+    border-bottom: 3px solid #ddd5c3;
+    border-style: none none dotted;
+}
+.referrer-service {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 40px 5px;
+    box-shadow: 0 15px 35px rgba(126,87,88,.1), 0 5px 15px rgba(0,0,0,.07);
+}
+
+.referrer-service img {
+    margin-right: 16px;
+    min-width: 55px;
+    width: 20%;
+    min-height: 55px;
+    height: 100%;
+}
+
+
+
+.referrer-service .referrer-details {
+    width: 80%;
+}
+
+.referrer-service .referrer-details span {
+    font-size: 1.2em;
+    font-family: Graphik-Medium;
+}
+
+.referrer-service .referrer-details p {
+    margin-bottom: 16px;
+}
+
+
+.cta-link {
+    margin-top: 16px;
+    font-family: Graphik-Medium,SimHei;
+    font-size: 1.1em;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cta-link .carret {
+    position: relative;
+    height: 20px;
+    top: 5px;
+    left: 10px;
+    transform: scale(1.6) rotate(-90deg);
+}
+
+
+* li, * p {
+    color: #6f6d6f;
+}
+
+.cta-link, .cta-secondary:active, .cta-secondary:focus {
+    color: #fd1015;
+}
+* a {
+    color: #0e0000;
+    text-decoration: none;
+}
+
+.cta-link .carret {
+    position: relative;
+    height: 20px;
+    top: 0px;
+    left: 3px;
+    transform: scale(1.6) rotate(-90deg);
+    color: $red;
+}
+
+
+.btn:hover, .btn:focus {
+    text-decoration: none;
+}
+
+
+.btn-link:hover {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.header-courses-section {
+  color: black;
+}
+
+.header-timeline-section {
+  color: black !important;
+}

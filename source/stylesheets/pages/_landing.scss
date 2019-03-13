@@ -5,6 +5,17 @@ body, html {
   letter-spacing: .1px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
 .pic {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -125,6 +136,7 @@ span.displayed {
 
 .accordion-mobile {
   display: none;
+  color: black;
 }
 
 .displayed {
@@ -209,6 +221,7 @@ ul.datatron li p {
   -ms-flex-positive: 1;
   flex-grow: 1;
   padding-top: 10px;
+  font-size: 15px;
 }
 
 .data-list {
