@@ -16,6 +16,11 @@
   margin: 0 auto;
 }
 
+.contact-card > p {
+  width: 80%;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 768px) {
   .dotted-right {
     border-right: 3px solid #ddd5c3;
@@ -25,7 +30,7 @@
 
 @media screen and (max-width: 768px) {
   .contact-section {
-      height: 120vh;
+      height: 140vh;
   }
 
   .contact-section > h2 {

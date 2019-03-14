@@ -66,6 +66,10 @@
     cursor: pointer;
 }
 
+.cta-link:hover {
+  color : $dark-red;
+}
+
 .cta-link .carret {
     position: relative;
     height: 20px;
