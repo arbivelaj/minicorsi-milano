@@ -115,4 +115,23 @@ ol.flickity-page-dots {
   display: none;
 }
 
+.getintouch {
+  background-color: $beige;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
 
+}
+
+.getintouch-container {
+  width: 48vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 758px) {
+
+  .getintouch-container {
+    width: 85vw;
+  }
+}
