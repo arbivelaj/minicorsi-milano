@@ -11,6 +11,7 @@ gem 'pry-byebug', require: true
 # Assets
 gem 'font-awesome-sass'
 gem 'bootstrap', '~> 4.1.3'
+gem 'middleman-hotjar'
 
 
 

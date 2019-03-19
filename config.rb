@@ -30,5 +30,6 @@ activate :deploy do |deploy|
   deploy.build_before = true
 end
 
-
-
+activate :hotjar do |hj|
+  hj.hotjar_id = '1244236' # Replace with your site's ID
+end
