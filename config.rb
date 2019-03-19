@@ -33,3 +33,7 @@ end
 activate :hotjar do |hj|
   hj.hotjar_id = '1244236' # Replace with your site's ID
 end
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-136485527-1' # Replace with your property ID.
+end
