@@ -117,16 +117,17 @@ ol.flickity-page-dots {
 
 .getintouch {
   background-color: $beige;
-  height: 20vh;
+  height: 25vh;
   display: flex;
   justify-content: space-around;
 
 }
 
 .getintouch-container {
-  width: 48vw;
+  width: 60vw;
   display: flex;
   justify-content: space-between;
+  padding-top: 50px;
 }
 
 @media screen and (max-width: 758px) {

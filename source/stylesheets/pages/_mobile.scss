@@ -38,6 +38,10 @@
     min-height: 95%;
   }
 
+  .no-display-navbar {
+    display:none;
+  }
+
   .sub-title {
     font-size: 20px !important;
     font-weight: bold !important;
@@ -356,6 +360,11 @@
 @media screen and (min-width: 576px) {
   section.wrapper-white {
     display: none !important;
+  }
+
+  .text-left-desktop {
+    text-align: left;
+    width: 33vw;
   }
 
   // .fourth-section-paragraph {
