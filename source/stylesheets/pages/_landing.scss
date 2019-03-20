@@ -48,8 +48,8 @@ a:active {
 
 
 .right-section-pic {
-  height: 90%;
-  width: 90%;
+  height: 100%;
+  width: 100%;
   border-radius: 3px;
   margin: auto;
 }
@@ -158,7 +158,7 @@ span.displayed {
 
 .second-section {
   width: 100vw;
-  height: 70vh;
+  height: 60vh;
   background-color: white;
   margin: 0 !important;
   position: relative;
@@ -173,6 +173,7 @@ span.displayed {
   width: 80vw;
   line-height: 2em;
   font-size: 19px;
+  min-height: 550px;
 }
 
 .datatron {
@@ -292,7 +293,7 @@ ul {
 .fourth-section-paragraph {
   margin-top: 15vh;
   font-family: "graphik-regular";
-  font-size: 18px;
+  font-size: 16px;
   margin-left: auto;
   margin-right: auto;
   width: 33vw;

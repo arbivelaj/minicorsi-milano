@@ -277,7 +277,7 @@
   }
 
   .fourth-section {
-    height: 140vh;
+    height: 120vh;
   }
 
   p {
@@ -334,7 +334,7 @@
 
   .header-top-fullscreen-big {
     top: 70px;
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .header-top-fullscreen-small {
@@ -344,7 +344,8 @@
 
 @media screen and (min-width: 1040px) {
   .mobile-header {
-    display: flow-root !important;
+    display: inline-block !important;
+    width: 100%;
   }
 
   .ul.datatron li {
@@ -375,7 +376,7 @@
 @media screen and (min-width: 769px) {
   .header-top-fullscreen-big {
     top: 70px;
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .dotted-full-screen {

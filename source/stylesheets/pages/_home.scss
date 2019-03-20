@@ -136,3 +136,24 @@ ol.flickity-page-dots {
     width: 85vw;
   }
 }
+
+
+.card-main1, .card-main2, .card-main3 {
+  -webkit-transition: all .35s ease;
+  transition: all .35s ease;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+
+.card-main1:hover, .card-main1:active,
+.card-main2:hover, .card-main2:active,
+.card-main3:hover, .card-main3:active, {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  -webkit-box-shadow: 0 4px 14px rgba(126, 87, 88, .2), 0 4px 8px rgba(0, 0, 0, .18);
+  box-shadow: 0 4px 14px rgba(126, 87, 88, .2), 0 4px 8px rgba(0, 0, 0, .18);
+  }
+
+
+
