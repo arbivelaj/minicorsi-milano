@@ -278,6 +278,7 @@
 
   .fourth-section {
     height: 120vh;
+    min-height: 950px;
   }
 
   p {
@@ -287,6 +288,7 @@
   .price-card {
     width: 85vw;
     top: 10%;
+    min-height: 500px;
   }
 
   .prices-cards {
@@ -295,6 +297,8 @@
 
   .last-section {
     height: 180vh;
+    min-height: 1100px;
+
   }
 
   .cta {
@@ -388,7 +392,19 @@
   }
 }
 
+@media screen and (max-height: 600px) {
+ .header-top-fullscreen-big {
+  top: 0px;
+ }
 
+ .no-padding-mobile, .minus-top-mobile {
+  top: -10px;
+ }
+
+ .third-section {
+  min-height: 850px;
+ }
+}
 
 
 

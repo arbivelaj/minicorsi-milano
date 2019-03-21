@@ -87,6 +87,7 @@ header {
   padding: 40px;
   padding-left: 17vw;
   background-color: #FFF9EF;
+  min-height: 500px;
 }
 
 .carousel-cell {
@@ -120,6 +121,7 @@ ol.flickity-page-dots {
   height: 25vh;
   display: flex;
   justify-content: space-around;
+  min-height: 150px;
 
 }
 
@@ -154,6 +156,11 @@ ol.flickity-page-dots {
   -webkit-box-shadow: 0 4px 14px rgba(126, 87, 88, .2), 0 4px 8px rgba(0, 0, 0, .18);
   box-shadow: 0 4px 14px rgba(126, 87, 88, .2), 0 4px 8px rgba(0, 0, 0, .18);
   }
+
+.last-section {
+  min-height: 800px;
+}
+
 
 
 

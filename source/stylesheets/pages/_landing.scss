@@ -167,7 +167,7 @@ span.displayed {
 }
 
 .course-desc-container {
-  margin-top: 20vh;
+  margin-top: 120px;
   margin-right: auto;
   margin-left: auto;
   width: 80vw;
@@ -276,6 +276,7 @@ ul {
 .third-section {
   height: 95vh;
   position: relative;
+  min-height: 600px;
 }
 
 
@@ -284,6 +285,7 @@ ul {
   position: relative;
   // background-color: #FFF9EF;
   margin: 0 !important;
+  min-height: 350px;
 }
 
 .fourth-section-main {
@@ -302,13 +304,15 @@ ul {
 }
 
 .fourth-section-paragraph-margin {
-  margin-top: 15vh !important;
+  margin-top: 90px !important;
 
 }
 
 .fifth-section {
   height: 100vh;
   position: relative;
+  min-height: 600px;
+
 }
 
 .prices-cards {
@@ -329,6 +333,8 @@ ul {
   float: left;
   perspective: 500px;
   border-radius: 3px;
+  min-height: 500px;
+
 }
 
 .content {
@@ -358,6 +364,7 @@ ul {
 .sixth-section {
   height: 65vh;
   position: relative;
+  min-height: 350px;
   // background-color: #FFF9EF;
 
 }
