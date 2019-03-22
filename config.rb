@@ -37,3 +37,5 @@ end
 activate :google_analytics do |ga|
   ga.tracking_id = 'UA-136485527-1' # Replace with your property ID.
 end
+
+activate :imageoptim

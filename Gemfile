@@ -13,6 +13,8 @@ gem 'font-awesome-sass'
 gem 'bootstrap', '~> 4.1.3'
 gem 'middleman-hotjar'
 gem 'middleman-google-analytics', '~> 3.0'
+gem 'middleman-imageoptim'
+
 
 
 
