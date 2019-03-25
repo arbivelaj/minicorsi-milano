@@ -8,6 +8,10 @@
 
   }
 
+  .display-none-mobile {
+    display:none;
+  }
+
   .course1 {
     height: 115vh !important;
   }
@@ -117,9 +121,6 @@
   //   margin-right: 0 !important;
   // }
 
-  .first-section {
-    margin-top: 30px !important;
-  }
 
   .right-pic {
     display: none !important;
