@@ -39,3 +39,11 @@ activate :google_analytics do |ga|
 end
 
 activate :imageoptim
+
+
+activate :robots,
+  rules: [
+    { user_agent: '*', allow: %w[/] }
+  ],
+  sitemap: 'https://lewagonitalia.org/sitemap.xml'
+
